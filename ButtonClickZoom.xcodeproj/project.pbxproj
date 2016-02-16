@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6A957151C72D12900E7766A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A957141C72D12900E7766A /* main.m */; };
+		B6A957181C72D12900E7766A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A957171C72D12900E7766A /* AppDelegate.m */; };
+		B6A9571B1C72D12900E7766A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A9571A1C72D12900E7766A /* ViewController.m */; };
+		B6A9571E1C72D12900E7766A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A9571C1C72D12900E7766A /* Main.storyboard */; };
+		B6A957201C72D12900E7766A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A9571F1C72D12900E7766A /* Assets.xcassets */; };
+		B6A957231C72D12900E7766A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A957211C72D12900E7766A /* LaunchScreen.storyboard */; };
+		B6A9572E1C72D12900E7766A /* ButtonClickZoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A9572D1C72D12900E7766A /* ButtonClickZoomTests.m */; };
+		B6A957391C72D12900E7766A /* ButtonClickZoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A957381C72D12900E7766A /* ButtonClickZoomUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6A9572A1C72D12900E7766A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A957081C72D12900E7766A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6A9570F1C72D12900E7766A;
+			remoteInfo = ButtonClickZoom;
+		};
+		B6A957351C72D12900E7766A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A957081C72D12900E7766A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6A9570F1C72D12900E7766A;
+			remoteInfo = ButtonClickZoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6A957101C72D12900E7766A /* ButtonClickZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonClickZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A957141C72D12900E7766A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6A957161C72D12900E7766A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6A957171C72D12900E7766A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6A957191C72D12900E7766A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6A9571A1C72D12900E7766A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6A9571D1C72D12900E7766A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6A9571F1C72D12900E7766A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6A957221C72D12900E7766A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6A957241C72D12900E7766A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A957291C72D12900E7766A /* ButtonClickZoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonClickZoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A9572D1C72D12900E7766A /* ButtonClickZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonClickZoomTests.m; sourceTree = "<group>"; };
+		B6A9572F1C72D12900E7766A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A957341C72D12900E7766A /* ButtonClickZoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonClickZoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A957381C72D12900E7766A /* ButtonClickZoomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonClickZoomUITests.m; sourceTree = "<group>"; };
+		B6A9573A1C72D12900E7766A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6A9570D1C72D12900E7766A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A957261C72D12900E7766A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A957311C72D12900E7766A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6A957071C72D12900E7766A = {
+			isa = PBXGroup;
+			children = (
+				B6A957121C72D12900E7766A /* ButtonClickZoom */,
+				B6A9572C1C72D12900E7766A /* ButtonClickZoomTests */,
+				B6A957371C72D12900E7766A /* ButtonClickZoomUITests */,
+				B6A957111C72D12900E7766A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6A957111C72D12900E7766A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6A957101C72D12900E7766A /* ButtonClickZoom.app */,
+				B6A957291C72D12900E7766A /* ButtonClickZoomTests.xctest */,
+				B6A957341C72D12900E7766A /* ButtonClickZoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6A957121C72D12900E7766A /* ButtonClickZoom */ = {
+			isa = PBXGroup;
+			children = (
+				B6A957161C72D12900E7766A /* AppDelegate.h */,
+				B6A957171C72D12900E7766A /* AppDelegate.m */,
+				B6A957191C72D12900E7766A /* ViewController.h */,
+				B6A9571A1C72D12900E7766A /* ViewController.m */,
+				B6A9571C1C72D12900E7766A /* Main.storyboard */,
+				B6A9571F1C72D12900E7766A /* Assets.xcassets */,
+				B6A957211C72D12900E7766A /* LaunchScreen.storyboard */,
+				B6A957241C72D12900E7766A /* Info.plist */,
+				B6A957131C72D12900E7766A /* Supporting Files */,
+			);
+			path = ButtonClickZoom;
+			sourceTree = "<group>";
+		};
+		B6A957131C72D12900E7766A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6A957141C72D12900E7766A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6A9572C1C72D12900E7766A /* ButtonClickZoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6A9572D1C72D12900E7766A /* ButtonClickZoomTests.m */,
+				B6A9572F1C72D12900E7766A /* Info.plist */,
+			);
+			path = ButtonClickZoomTests;
+			sourceTree = "<group>";
+		};
+		B6A957371C72D12900E7766A /* ButtonClickZoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6A957381C72D12900E7766A /* ButtonClickZoomUITests.m */,
+				B6A9573A1C72D12900E7766A /* Info.plist */,
+			);
+			path = ButtonClickZoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6A9570F1C72D12900E7766A /* ButtonClickZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A9573D1C72D12900E7766A /* Build configuration list for PBXNativeTarget "ButtonClickZoom" */;
+			buildPhases = (
+				B6A9570C1C72D12900E7766A /* Sources */,
+				B6A9570D1C72D12900E7766A /* Frameworks */,
+				B6A9570E1C72D12900E7766A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonClickZoom;
+			productName = ButtonClickZoom;
+			productReference = B6A957101C72D12900E7766A /* ButtonClickZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6A957281C72D12900E7766A /* ButtonClickZoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A957401C72D12900E7766A /* Build configuration list for PBXNativeTarget "ButtonClickZoomTests" */;
+			buildPhases = (
+				B6A957251C72D12900E7766A /* Sources */,
+				B6A957261C72D12900E7766A /* Frameworks */,
+				B6A957271C72D12900E7766A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6A9572B1C72D12900E7766A /* PBXTargetDependency */,
+			);
+			name = ButtonClickZoomTests;
+			productName = ButtonClickZoomTests;
+			productReference = B6A957291C72D12900E7766A /* ButtonClickZoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6A957331C72D12900E7766A /* ButtonClickZoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A957431C72D12900E7766A /* Build configuration list for PBXNativeTarget "ButtonClickZoomUITests" */;
+			buildPhases = (
+				B6A957301C72D12900E7766A /* Sources */,
+				B6A957311C72D12900E7766A /* Frameworks */,
+				B6A957321C72D12900E7766A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6A957361C72D12900E7766A /* PBXTargetDependency */,
+			);
+			name = ButtonClickZoomUITests;
+			productName = ButtonClickZoomUITests;
+			productReference = B6A957341C72D12900E7766A /* ButtonClickZoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6A957081C72D12900E7766A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cen;
+				TargetAttributes = {
+					B6A9570F1C72D12900E7766A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B6A957281C72D12900E7766A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B6A9570F1C72D12900E7766A;
+					};
+					B6A957331C72D12900E7766A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B6A9570F1C72D12900E7766A;
+					};
+				};
+			};
+			buildConfigurationList = B6A9570B1C72D12900E7766A /* Build configuration list for PBXProject "ButtonClickZoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6A957071C72D12900E7766A;
+			productRefGroup = B6A957111C72D12900E7766A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6A9570F1C72D12900E7766A /* ButtonClickZoom */,
+				B6A957281C72D12900E7766A /* ButtonClickZoomTests */,
+				B6A957331C72D12900E7766A /* ButtonClickZoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6A9570E1C72D12900E7766A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A957231C72D12900E7766A /* LaunchScreen.storyboard in Resources */,
+				B6A957201C72D12900E7766A /* Assets.xcassets in Resources */,
+				B6A9571E1C72D12900E7766A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A957271C72D12900E7766A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A957321C72D12900E7766A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6A9570C1C72D12900E7766A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A9571B1C72D12900E7766A /* ViewController.m in Sources */,
+				B6A957181C72D12900E7766A /* AppDelegate.m in Sources */,
+				B6A957151C72D12900E7766A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A957251C72D12900E7766A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A9572E1C72D12900E7766A /* ButtonClickZoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A957301C72D12900E7766A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A957391C72D12900E7766A /* ButtonClickZoomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6A9572B1C72D12900E7766A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6A9570F1C72D12900E7766A /* ButtonClickZoom */;
+			targetProxy = B6A9572A1C72D12900E7766A /* PBXContainerItemProxy */;
+		};
+		B6A957361C72D12900E7766A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6A9570F1C72D12900E7766A /* ButtonClickZoom */;
+			targetProxy = B6A957351C72D12900E7766A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6A9571C1C72D12900E7766A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A9571D1C72D12900E7766A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6A957211C72D12900E7766A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A957221C72D12900E7766A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6A9573B1C72D12900E7766A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6A9573C1C72D12900E7766A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6A9573E1C72D12900E7766A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonClickZoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v.tech.ButtonClickZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6A9573F1C72D12900E7766A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonClickZoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v.tech.ButtonClickZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6A957411C72D12900E7766A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ButtonClickZoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v.tech.ButtonClickZoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonClickZoom.app/ButtonClickZoom";
+			};
+			name = Debug;
+		};
+		B6A957421C72D12900E7766A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ButtonClickZoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v.tech.ButtonClickZoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonClickZoom.app/ButtonClickZoom";
+			};
+			name = Release;
+		};
+		B6A957441C72D12900E7766A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ButtonClickZoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v.tech.ButtonClickZoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ButtonClickZoom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B6A957451C72D12900E7766A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ButtonClickZoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v.tech.ButtonClickZoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ButtonClickZoom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6A9570B1C72D12900E7766A /* Build configuration list for PBXProject "ButtonClickZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A9573B1C72D12900E7766A /* Debug */,
+				B6A9573C1C72D12900E7766A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A9573D1C72D12900E7766A /* Build configuration list for PBXNativeTarget "ButtonClickZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A9573E1C72D12900E7766A /* Debug */,
+				B6A9573F1C72D12900E7766A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6A957401C72D12900E7766A /* Build configuration list for PBXNativeTarget "ButtonClickZoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A957411C72D12900E7766A /* Debug */,
+				B6A957421C72D12900E7766A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6A957431C72D12900E7766A /* Build configuration list for PBXNativeTarget "ButtonClickZoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A957441C72D12900E7766A /* Debug */,
+				B6A957451C72D12900E7766A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6A957081C72D12900E7766A /* Project object */;
+}
